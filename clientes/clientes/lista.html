@@ -1,0 +1,8 @@
+
+<!-- lista.html -->
+{% for c in clientes %}
+  {{ c.nome }} - {{ c.email }}
+  <a href="{% url 'editar' c.pk %}">Editar</a>
+  <a href="{% url 'excluir' c.pk %}">Excluir</a>
+{% endfor %}
+
