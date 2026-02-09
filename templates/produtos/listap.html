@@ -1,0 +1,6 @@
+<!-- lista.html -->
+{% for p in produtos %}
+  {{ p.nome }} - {{ p.quantidade }}
+  <a href="{% url 'editarp' p.pk %}">Editarp</a>
+  <a href="{% url 'excluirp' p.pk %}">Excluirp</a>
+{% endfor %}
