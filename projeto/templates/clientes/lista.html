@@ -1,0 +1,5 @@
+{% for c in clientes %}
+   {{c.nome}} - {{c.idade}}
+   <a href="{% url 'editar' c.pk %}">Editar</a>
+   <a href="{% url 'excluir' c.pk %}">Excluir</a>
+{% endfor %}

@@ -1,0 +1,9 @@
+<!--<form method="post"> Serve para enviar dados do formulário para o servidor de forma segura.
+Protege sua aplicação contra ataques CSRF(Cross-Site Request Forgery).
+ enderiza todo o formulário automaticamente em HTML, colocando cada campo dentro de uma tag <p> -->
+
+<form method = "post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Salvar</button>
+</form>
