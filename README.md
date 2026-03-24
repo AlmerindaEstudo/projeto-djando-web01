@@ -30,7 +30,7 @@ Permite cadastrar fornecedores
 Permite cadastrar produtos vinculados aos fornecedores
 Representa o início do fluxo do sistema
 
-![alt text](image-2.png)
+![alt text](imagens/image-2.png)
 
 ## 🛒 Aba "Comprar Produtos"
 Registra compras realizadas com fornecedores
