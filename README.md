@@ -37,19 +37,19 @@ Registra compras realizadas com fornecedores
 Adiciona produtos ao estoque
 Atualiza a quantidade disponível no sistema
 
-![alt text](image-3.png)
+![alt text](imagens/image-3.png)
 
 ## 💰 Aba "Vender"
 Realiza vendas para clientes
 Regra importante: só é possível vender produtos disponíveis no estoque
 
-![alt text](image.png)
+![alt text](imagens/image.png)
 
 ## 📊 Aba "Vendidos"
 Exibe o histórico de vendas
 Permite acompanhar todas as transações realizadas
 
-![alt text](image-1.png)
+![alt text](imagens/image-1.png)
 
 # 🧠 Conceitos Aplicados
 ## 🔸 Models
